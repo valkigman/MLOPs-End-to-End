@@ -29,7 +29,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
-        raise BoxValueError:
+        raise BoxValueError
     except Exception as e:
         raise e
     
