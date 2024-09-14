@@ -2,7 +2,7 @@
 
 ### An end to end project showcasing how to  automate and simplify Machine Learning workflows and deployments
 
-## Workflows
+## Workflow steps
 
 1. Update config.yaml
 2. Update schema.yaml
