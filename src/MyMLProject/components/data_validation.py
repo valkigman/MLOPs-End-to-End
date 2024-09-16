@@ -3,7 +3,7 @@ from src.MyMLProject import logger
 from src.MyMLProject.entity.config_entity import DataValidationConfig
 import pandas as pd
 
-class DataValiadtion:
+class DataValidation:
     def __init__(self, config: DataValidationConfig):
         self.config = config
 
