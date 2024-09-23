@@ -5,6 +5,8 @@ from src.MyMLProject import logger
 from src.MyMLProject.utils.common import get_size
 from pathlib import Path
 from src.MyMLProject.entity.config_entity import (DataIngestionConfig)
+import pandas as pd
+
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
